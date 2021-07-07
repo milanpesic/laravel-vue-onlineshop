@@ -1,0 +1,45 @@
+body {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sect {
+    color: red;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: black; 
+    font-weight: bold;
+}
+
+.pagination > .active > span {
+  background: gold !important;
+  color: black !important;
+  border: 1px solid gold !important;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: white;
+    background-color: lightgrey;
+    box-shadow: none;  
+}
+
+.dropdown-item:active {
+    background-color: #6c757d!important;
+}
